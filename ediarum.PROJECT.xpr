@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\Qediarum.PROJECT.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>key.custom.editor.variables.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>user.defined.editor.variables</String>
+                        <userEditorVariable-array>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_project_name}</String>
+                                </field>
+                                <field name="value">
+                                    <String>project</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Name des Projektes - Muss mit Namen der Collection in der existdb übereinstimmen</String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_project_domain}</String>
+                                </field>
+                                <field name="value">
+                                    <String>http://oxygen-bot:oxygen-bot@localhost:8080</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Domain incl. port and credentials</String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_projects_directory}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/ediarum/rest/db/projects/</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String></String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_projects_directory_webdav}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/ediarum/webdav/db/projects/</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String></String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_id}</String>
+                                </field>
+                                <field name="value">
+                                    <String>${xpath_eval(doc('${ediarum_project_domain}${ediarum_projects_directory}/${ediarum_project_name}/oxygen/ediarum_idGenerator.xql')//new-id/text())}</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Pfad zur ediarum_idGenerator.xql für automatische Generierung der IDs.</String>
+                                </field>
+                            </userEditorVariable>
+                        </userEditorVariable-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="ediarum.PROJECT.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>
