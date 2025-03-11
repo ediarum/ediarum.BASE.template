@@ -1,0 +1,19 @@
+message: "If you use this software, please cite it using these metadata."
+authors:
+    - family-names: Arndt	
+      given-names: Nadine 
+      orcid: "https://orcid.org/0000-0002-2257-7236"
+    - family-names: Fechner	
+      given-names: Martin 
+      orcid: "https://orcid.org/0000-0001-9233-0653"
+    - family-names: Wierzoch
+      given-names: Jan
+      orcid: "https://orcid.org/0000-0002-6388-4064"
+title: ediarum.BASE.template 
+abstract: "ediarum.BASE.template contains an example project for setting up a customized ediarum project."
+type: software
+date-released: "2024-05-24"
+repository-code: "https://github.com/ediarum/ediarum.BASE.template"
+license: "GNU General Public License"
+url: "https://www.ediarum.org"
+cff-version: 1.2.0
