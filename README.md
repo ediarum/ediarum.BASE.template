@@ -1,12 +1,20 @@
 # ediarum.BASE.template
 
-© 2024 by Berlin-Brandenburg Academey of Sciences and Humanities
+© 2025 by Berlin-Brandenburg Academey of Sciences and Humanities
 
-Developed by TELOTA, a DH working group of the Berlin-Brandenburg Academey of Sciences and Humanities  
-<http://www.bbaw.de/telota>
-telota@bbaw.de
+Part of ediarum (https://www.ediarum.org, ediarum@bbaw.de)
 
-For more infomation about **ediarum** see <www.ediarum.org>.
+Developed by TELOTA (https://www.bbaw.de/telota, telota@bbaw.de), a DH working group of the Berlin-Brandenburg Academey of Sciences and Humanities.
+
+Ediarum Core Team:
+
+* Nadine Arndt
+* Martin Fechner
+* Jan Wierzoch
+
+Developer of ediarum.BASE.template:
+
+* Jan Wierzoch
 
 
 ## What does it do?
