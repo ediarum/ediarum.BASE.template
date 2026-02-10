@@ -61,7 +61,7 @@
                                     <String>${ediarum_id}</String>
                                 </field>
                                 <field name="value">
-                                    <String>${xpath_eval(doc('${ediarum_project_domain}${ediarum_projects_directory}/${ediarum_project_name}/oxygen/ediarum_idGenerator.xql')//new-id/text())}</String>
+                                    <String>${xpath_eval(doc('${ediarum_project_domain}${ediarum_projects_directory}/${ediarum_project_name}/oxygen/ediarum_idGenerator.xql')//*:new-id/text())}</String>
                                 </field>
                                 <field name="shortDescription">
                                     <String>Pfad zur ediarum_idGenerator.xql für automatische Generierung der IDs.</String>
